@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BluemForum.dao.UserDao">
+    <insert id="insertUser" useGeneratedKeys="true" keyColumn="user_id" keyProperty="UserId">
+    INSERT INTO
+    tb_user(username,password,phonenumber,email,nickname)
+    VALUES
+    (#{username},#{password},#{phoneNumber},#{email},#{nickname})
+    </insert>
+
+    <select id="loginUser" resultType="BluemForum.entity.User">
+        SELECT
+        user_id,
+        name,
+        username,
+        password,
+        phonenumber,
+        email,
+        nickname
+        FROM
+        tb_user
+        <where>
+
+        </where>
+    </select>
+    <update id="updateUser" parameterType="BluemForum.entity.User">
+        update tb_user
+        <if test="email!=null">email=#{email},</if>
+        <if test="nickname!=null">nickname=#{nickname},</if>
+        <if test="phoneNumber!=null">phonenumber=#{phonenumber},</if>
+        <if test="password!=null">paasword=#{password},</if>
+        where username=#{username} and password=#{password}
+    </update>
+</mapper>
