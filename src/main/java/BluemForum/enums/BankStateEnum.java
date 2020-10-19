@@ -1,8 +1,8 @@
 package BluemForum.enums;
 
-
-public class BankStateEnum {
-
+public enum BankStateEnum {
+    CHECK(0, "审核中"), OFFLINE(-1, "非法店铺"), SUCCESS(1, "操作成功"), PASS(2, "通过认证"), INNER_ERROR(-1001,
+            "内部系统错误");
     private int state;
     private String stateInfo;
 

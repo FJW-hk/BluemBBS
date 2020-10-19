@@ -1,40 +1,40 @@
 package BluemForum.entity;
 
 public class Manager {
-    private Integer ManagerID;
-    private String ManagerName;
-    private String ManagerAccount;
-    private String ManagerPassword;
+    private Integer managerID;
+    private String managerName;
+    private String managerAccount;
+    private String managerPassword;
 
     public Integer getManagerID() {
-        return ManagerID;
+        return managerID;
     }
 
     public void setManagerID(Integer managerID) {
-        ManagerID = managerID;
+        this.managerID = managerID;
     }
 
     public String getManagerName() {
-        return ManagerName;
+        return managerName;
     }
 
     public void setManagerName(String managerName) {
-        ManagerName = managerName;
+        this.managerName = managerName;
     }
 
     public String getManagerAccount() {
-        return ManagerAccount;
+        return managerAccount;
     }
 
     public void setManagerAccount(String managerAccount) {
-        ManagerAccount = managerAccount;
+        this.managerAccount = managerAccount;
     }
 
     public String getManagerPassword() {
-        return ManagerPassword;
+        return managerPassword;
     }
 
     public void setManagerPassword(String managerPassword) {
-        ManagerPassword = managerPassword;
+        this.managerPassword = managerPassword;
     }
 }

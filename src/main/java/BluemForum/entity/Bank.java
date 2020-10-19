@@ -1,31 +1,31 @@
 package BluemForum.entity;
 
 public class Bank {
-    private Integer BankId;
-    private String BankName;
-    private String BankHost;
-
-    public String getBankHost() {
-        return BankHost;
-    }
+    private Integer bankId;
+    private String bankName;
+    private String bankHost;
 
     public Integer getBankId() {
-        return BankId;
+        return bankId;
     }
 
     public void setBankId(Integer bankId) {
-        BankId = bankId;
+        this.bankId = bankId;
     }
 
     public String getBankName() {
-        return BankName;
+        return bankName;
     }
 
     public void setBankName(String bankName) {
-        BankName = bankName;
+        this.bankName = bankName;
+    }
+
+    public String getBankHost() {
+        return bankHost;
     }
 
     public void setBankHost(String bankHost) {
-        BankHost = bankHost;
+        this.bankHost = bankHost;
     }
 }

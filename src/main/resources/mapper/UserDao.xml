@@ -3,11 +3,21 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="BluemForum.dao.UserDao">
-    <insert id="insertUser" useGeneratedKeys="true" keyColumn="user_id" keyProperty="UserId">
+    <resultMap type="BluemForum.entity.User" id="UserMap">
+        <id column="user_id" property="userId" />
+        <result column="username" property="username" />
+        <result column="password" property="password"/>
+        <result column="tel" property="tel"/>
+        <result column="nickname" property="nickname"/>
+        <result column="email" property="email"/>
+        <result column="homepage" property="homepage"/>
+    </resultMap>
+    
+    <insert id="insertUser" useGeneratedKeys="true" keyColumn="user_id" keyProperty="userId">
     INSERT INTO
-    tb_user(username,password,phonenumber,email,nickname)
+    tb_user(username,password,tel,email,nickname,homepage)
     VALUES
-    (#{username},#{password},#{phoneNumber},#{email},#{nickname})
+    (#{username},#{password},#{tel},#{email},#{nickname},#{homepage})
     </insert>
 
     <select id="loginUser" resultType="BluemForum.entity.User">
@@ -16,20 +26,19 @@
         name,
         username,
         password,
-        phonenumber,
+        tel,
         email,
         nickname
         FROM
         tb_user
-        <where>
-
-        </where>
+        WHERE
+        user_id=#{userId}
     </select>
     <update id="updateUser" parameterType="BluemForum.entity.User">
         update tb_user
         <if test="email!=null">email=#{email},</if>
         <if test="nickname!=null">nickname=#{nickname},</if>
-        <if test="phoneNumber!=null">phonenumber=#{phonenumber},</if>
+        <if test="tel!=null">tel=#{tel},</if>
         <if test="password!=null">paasword=#{password},</if>
         where username=#{username} and password=#{password}
     </update>

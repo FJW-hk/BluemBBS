@@ -1,40 +1,40 @@
 package BluemForum.entity;
 
 public class Mod {
-    private Integer ModId;
-    private String ModName;
-    private String ModAccount;
-    private String ModPassword;
+    private Integer modId;
+    private String modName;
+    private String modAccount;
+    private String modPassword;
 
     public Integer getModId() {
-        return ModId;
+        return modId;
     }
 
     public void setModId(Integer modId) {
-        ModId = modId;
+        this.modId = modId;
     }
 
     public String getModName() {
-        return ModName;
+        return modName;
     }
 
     public void setModName(String modName) {
-        ModName = modName;
+        this.modName = modName;
     }
 
     public String getModAccount() {
-        return ModAccount;
+        return modAccount;
     }
 
     public void setModAccount(String modAccount) {
-        ModAccount = modAccount;
+        this.modAccount = modAccount;
     }
 
     public String getModPassword() {
-        return ModPassword;
+        return modPassword;
     }
 
     public void setModPassword(String modPassword) {
-        ModPassword = modPassword;
+        this.modPassword = modPassword;
     }
 }

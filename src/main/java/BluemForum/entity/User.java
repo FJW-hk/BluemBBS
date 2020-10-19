@@ -4,16 +4,43 @@ public class User {
     private Integer userId;
     private String username;
     private String password;
-    private String phoneNumber;
+    private String tel;
     private String email;
     private String nickname;
+    private Manager manager;
+    private Mod mod;
+    private String homepage;
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getHomepage() {
+        return homepage;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setHomepage(String homepage) {
+        this.homepage = homepage;
+    }
+
+    public Manager getManager() {
+        return manager;
+    }
+
+    public void setManager(Manager manager) {
+        this.manager = manager;
+    }
+
+    public Mod getMod() {
+        return mod;
+    }
+
+    public void setMod(Mod mod) {
+        this.mod = mod;
+    }
+
+    public String getTel() {
+        return tel;
+    }
+
+    public void setTel(String tel) {
+        this.tel = tel;
     }
 
     public String getEmail() {
@@ -56,5 +83,15 @@ public class User {
         this.password = password;
     }
 
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", tel='" + tel + '\'' +
+                ", email='" + email + '\'' +
+                ", nickname='" + nickname + '\'' +
+                '}';
+    }
 }

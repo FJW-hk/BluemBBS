@@ -2,68 +2,67 @@ package BluemForum.entity;
 
 
 public class Note {
-    private Integer NoteID;
-    private String NoteName;
-    private String NoteInf;
-    private String NoteTime;
-    private String NoteUser;
-    private String NoteBank;
-    private Integer NoteHot;
+    private Integer noteId;
+    private String noteName;
+    private String noteInf;
+    private String noteTime;
+    private String noteUser;
+    private String noteBank;
+    private Integer noteHot;
+
+    public Integer getNoteId() {
+        return noteId;
+    }
+
+    public void setNoteId(Integer noteId) {
+        this.noteId = noteId;
+    }
 
     public String getNoteName() {
-        return NoteName;
+        return noteName;
     }
 
     public void setNoteName(String noteName) {
-        NoteName = noteName;
-    }
-
-    public String getNoteUser() {
-        return NoteUser;
-    }
-
-    public void setNoteUser(String noteUser) {
-        NoteUser = noteUser;
-    }
-
-    public String getNoteBank() {
-        return NoteBank;
-    }
-
-    public void setNoteBank(String noteBank) {
-        NoteBank = noteBank;
-    }
-
-    public Integer getNoteHot() {
-        return NoteHot;
-    }
-
-    public void setNoteHot(Integer noteHot) {
-        NoteHot = noteHot;
-    }
-
-    public Integer getNoteID() {
-        return NoteID;
-    }
-
-    public void setNoteID(Integer noteID) {
-        NoteID = noteID;
+        this.noteName = noteName;
     }
 
     public String getNoteInf() {
-        return NoteInf;
+        return noteInf;
     }
 
     public void setNoteInf(String noteInf) {
-        NoteInf = noteInf;
+        this.noteInf = noteInf;
     }
 
     public String getNoteTime() {
-        return NoteTime;
+        return noteTime;
     }
 
     public void setNoteTime(String noteTime) {
-        NoteTime = noteTime;
+        this.noteTime = noteTime;
     }
 
+    public String getNoteUser() {
+        return noteUser;
+    }
+
+    public void setNoteUser(String noteUser) {
+        this.noteUser = noteUser;
+    }
+
+    public String getNoteBank() {
+        return noteBank;
+    }
+
+    public void setNoteBank(String noteBank) {
+        this.noteBank = noteBank;
+    }
+
+    public Integer getNoteHot() {
+        return noteHot;
+    }
+
+    public void setNoteHot(Integer noteHot) {
+        this.noteHot = noteHot;
+    }
 }

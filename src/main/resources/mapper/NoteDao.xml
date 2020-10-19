@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="BluemForum.dao.NoteDao">
+    <resultMap id="NoteMap" type="BluemForum.entity.Note">
+        <id column="note_id" property="noteId"/>
+        <result column="note_bank" property="noteBank" />
+        <result column="note_hot" property="noteHot"/>
+        <result column="note_name" property="noteName"/>
+        <result column="note_inf" property="noteInf"/>
+        <result column="note_time" property="noteTime"/>
+        <result column="note_user" property="noteUser"/>
+    </resultMap>
+    <insert id="postNote" useGeneratedKeys="true" keyColumn="note_id" keyProperty="noteId">
+        INSERT INTO
+        tb_note(note_name,note_time,note_Inf,note_bank,note_user,note_hot)
+        values
+        (#{NoteName},#{NoteTime},#{NoteInf},#{NoteBank},#{NoteUser},#{NoteHot})
+    </insert>
+
+    <update id="changeNote">
+
+    </update>
+
+    <select id="getNote" resultType="BluemForum.entity.Note">
+
+    </select>
+</mapper>

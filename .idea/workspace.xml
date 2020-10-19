@@ -11,18 +11,52 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf886a1-ea17-4377-8127-e1b6dd0d52ee" name="Default Changelist" comment="10.12 Init">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BankDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ManagerDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ModDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/NoteDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Reply.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BluemForum/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/dao/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/dao/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/dao/ModDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/dao/ModDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/dao/NoteDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/dao/NoteDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Mod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Mod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/entity/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/enums/BankStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/enums/BankStateEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BluemForum/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BluemForum/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BluemForum/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BluemForum/dao/UserDaoTest.java" afterDir="false" />
     </list>
     <list id="e341b8bd-3fc0-44e8-968b-89c7e7ed579b" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 334347dc" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +64,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="spring-beans.schema" />
         <option value="JUnit3 Test Class" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Dao XML Files" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PATH_TO_GIT" value="D:\Git\cmd\git.exe" />
+    <option name="PATH_TO_GIT" value="D:\Git\bin\git.exe" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
@@ -88,6 +127,9 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="8917f56d-3494-4250-a4e1-19b3063e9b90" />
   </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -110,6 +152,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -121,24 +164,31 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mvco2o" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21139102" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="BluemForum.dao" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\Javaweb\BluemForum\src\main\java" />
       <recent name="D:\project\Javaweb\BluemForum\src\main\resources\spring" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="BluemForum" />
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="BluemForum.util" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\Javaweb\BluemForum\src\main\java\BluemForum" />
@@ -148,6 +198,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.50">
+    <configuration name="UserDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BluemForum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BluemForum.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BluemForum.dao" />
+      <option name="MAIN_CLASS_NAME" value="BluemForum.dao.UserDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserDaoTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BluemForum" />
       <extension name="coverage">
@@ -159,6 +224,22 @@
       <option name="PACKAGE_NAME" value="BluemForum.dao" />
       <option name="MAIN_CLASS_NAME" value="BluemForum.dao.UserDaoTest" />
       <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.testLoginUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BluemForum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BluemForum.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BluemForum.dao" />
+      <option name="MAIN_CLASS_NAME" value="BluemForum.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="testLoginUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,6 +265,9 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="57948" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="56029" />
+      </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -200,6 +284,21 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -239,7 +338,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserDaoTest.testInsertUser" />
-        <item itemvalue="JUnit.UserDaoTest.testInsertUser" />
+        <item itemvalue="JUnit.UserDaoTest" />
+        <item itemvalue="JUnit.UserDaoTest.testLoginUser" />
         <item itemvalue="JUnit.UserDaoTest.testInsertUser" />
         <item itemvalue="JUnit.UserDaoTest.testInsertUser" />
       </list>
@@ -267,7 +367,19 @@
       <workItem from="1602398745979" duration="53000" />
       <workItem from="1602468686158" duration="2243000" />
       <workItem from="1602470951602" duration="935000" />
-      <workItem from="1602471911398" duration="214000" />
+      <workItem from="1602471911398" duration="2143000" />
+      <workItem from="1602475985505" duration="895000" />
+      <workItem from="1602572289189" duration="11646000" />
+      <workItem from="1602593142700" duration="91000" />
+      <workItem from="1602593270967" duration="11719000" />
+      <workItem from="1602680750623" duration="740000" />
+      <workItem from="1602681543514" duration="1035000" />
+      <workItem from="1602720298453" duration="3256000" />
+      <workItem from="1602750668938" duration="15000" />
+      <workItem from="1602772081652" duration="393000" />
+      <workItem from="1603065622945" duration="1064000" />
+      <workItem from="1603066732130" duration="1525000" />
+      <workItem from="1603149787063" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="10.10">
       <created>1602311936605</created>
@@ -297,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602470531917</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10.12 Init">
+      <created>1602472172730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602472172731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +463,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -375,26 +494,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="10.12 Init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="249" y="0" key="#Project_Structure" timestamp="1602040317817">
+    <state x="651" y="274" key="#Notifications" timestamp="1602473079541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602040317817" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602383931969">
+    <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602473079541" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1602476176322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602383931969" />
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1602476176322" />
+    <state x="446" y="278" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog" timestamp="1602590336244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="446" y="278" key="#com.intellij.codeInsight.i18n.I18nizeQuickFixDialog/0.0.1536.824@0.0.1536.824" timestamp="1602590336244" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602772165125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602772165125" />
     <state x="483" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602122282360">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="483" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602122282360" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1602388072634">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1602723946005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602388072634" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602285270401">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602723946005" />
+    <state x="544" y="275" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602633937327">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602285270401" />
+    <state x="544" y="275" width="448" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1602633937327" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602593499286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602593499286" />
     <state x="358" y="0" key="CommitChangelistDialog2" timestamp="1602468760758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -403,10 +534,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1602470609586" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602472022837">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603150518178">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602472022837" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603150518178" />
+    <state x="579" y="331" key="Gitee.CreateGistDialog" timestamp="1602476208348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="579" y="331" key="Gitee.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1602476208348" />
     <state x="608" y="312" key="Gitee.ShareDialog" timestamp="1602469889048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -415,98 +550,102 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="579" y="331" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1602397813223" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1602394402719">
+    <state width="1254" height="196" key="GridCell.Tab.0.bottom" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602394402719" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1602394402719">
+    <state width="1254" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.0.center" timestamp="1603099766617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602394402719" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1602394402719">
+    <state width="1254" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603099766617" />
+    <state width="1254" height="196" key="GridCell.Tab.0.left" timestamp="1603099766617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602394402719" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1602394402719">
+    <state width="1254" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603099766617" />
+    <state width="1254" height="196" key="GridCell.Tab.0.right" timestamp="1603099766617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602394402719" />
-    <state width="1024" height="94" key="GridCell.Tab.1.bottom" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603099766617" />
+    <state width="1254" height="196" key="GridCell.Tab.1.bottom" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.1.center" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.1.center" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.1.left" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.1.left" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.1.right" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.1.right" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.2.bottom" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.2.bottom" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.2.center" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.2.center" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.2.left" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.2.left" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="94" key="GridCell.Tab.2.right" timestamp="1602394402716">
+    <state width="1254" height="196" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.2.right" timestamp="1603099766618">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="94" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1602394402716" />
-    <state width="1024" height="220" key="GridCell.Tab.3.bottom" timestamp="1602308573194">
+    <state width="1254" height="196" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1603099766618" />
+    <state width="1254" height="196" key="GridCell.Tab.3.bottom" timestamp="1603099766619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="220" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602308573194" />
-    <state width="1024" height="220" key="GridCell.Tab.3.center" timestamp="1602308573194">
+    <state width="1254" height="196" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603099766619" />
+    <state width="1254" height="196" key="GridCell.Tab.3.center" timestamp="1603099766619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="220" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1602308573194" />
-    <state width="1024" height="220" key="GridCell.Tab.3.left" timestamp="1602308573194">
+    <state width="1254" height="196" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1603099766619" />
+    <state width="1254" height="196" key="GridCell.Tab.3.left" timestamp="1603099766619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="220" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1602308573194" />
-    <state width="1024" height="220" key="GridCell.Tab.3.right" timestamp="1602308573194">
+    <state width="1254" height="196" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1603099766619" />
+    <state width="1254" height="196" key="GridCell.Tab.3.right" timestamp="1603099766619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="220" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1602308573194" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1602472124921">
+    <state width="1254" height="196" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1603099766619" />
+    <state x="0" y="57" key="SettingsEditor" timestamp="1603150830608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602472124921" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602471647363">
+    <state x="0" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603150830608" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1602476756068">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602471647363" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602476756068" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1602595837300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1602595837300" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602398731300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1602398731300" />
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602471568207">
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602476248133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602471568207" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1602476248133" />
     <state x="163" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602124758300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="163" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1602124758300" />
-    <state x="470" y="199" width="558" height="425" key="git4idea.merge.GitPullDialog" timestamp="1602398440319">
+    <state x="470" y="199" width="593" height="425" key="git4idea.merge.GitPullDialog" timestamp="1602475927376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="199" width="558" height="425" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1602398440319" />
-    <state x="520" y="312" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602471469181">
+    <state x="470" y="199" width="593" height="425" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1602475927376" />
+    <state x="520" y="312" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1602476873769">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="520" y="312" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602471469181" />
+    <state x="520" y="312" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602476873769" />
     <state x="578" y="306" key="git4idea.ui.GitResetDialog" timestamp="1602398605818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -515,27 +654,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1601904679230" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602382992822">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602679454780">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602382992822" />
-    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1602470338237">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602679454780" />
+    <state x="599" y="203" key="svn.repositoryBrowser" timestamp="1602476725348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1602470338237" />
+    <state x="599" y="203" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1602476725348" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BluemForum/web/UserController.java</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BluemForum/dao/UserDaoTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BluemForum/dao/UserDaoTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BluemForum/web/UserController.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="2" />
+          <line>49</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
